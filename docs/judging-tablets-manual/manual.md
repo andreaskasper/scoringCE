@@ -1,8 +1,19 @@
-# Judging Tablet Manual
-## Dance Competition Judging System - Complete Guide
+# scoring.dance Judging Tablet Manual
+## Complete Guide for Dance Competition Judges
 
 **Version 1.0**  
+**Platform: scoring.dance**  
 **Last Updated: December 2025**
+
+---
+
+## 📹 Video Tutorial Available
+
+Before diving into this manual, we highly recommend watching our comprehensive video tutorial that demonstrates the **scoring.dance** judging tablet system in action:
+
+**🎥 Watch now: [https://www.youtube.com/watch?v=_3484YFtm7A](https://www.youtube.com/watch?v=_3484YFtm7A)**
+
+The video provides a visual walkthrough of the entire judging workflow, from login to final submission, with helpful tips from experienced judges. This manual serves as a detailed reference to complement the video tutorial.
 
 ---
 
@@ -10,7 +21,7 @@
 
 1. [Introduction](#1-introduction)
    - 1.1 [Purpose of this Manual](#11-purpose-of-this-manual)
-   - 1.2 [Overview of the Judging Tablet System](#12-overview-of-the-judging-tablet-system)
+   - 1.2 [Overview of the scoring.dance Judging System](#12-overview-of-the-scoringdance-judging-system)
    - 1.3 [WSDC Compliance and Standards](#13-wsdc-compliance-and-standards)
 
 2. [Getting Started](#2-getting-started)
@@ -65,7 +76,8 @@
     - 12.1 [Quick Reference Guide](#121-quick-reference-guide)
     - 12.2 [WSDC Callback System Reference](#122-wsdc-callback-system-reference)
     - 12.3 [Glossary of Terms](#123-glossary-of-terms)
-    - 12.4 [Frequently Asked Questions](#124-frequently-asked-questions)
+    - 12.4 [Screenshot Gallery](#124-screenshot-gallery)
+    - 12.5 [Frequently Asked Questions](#125-frequently-asked-questions)
 
 ---
 
@@ -73,16 +85,18 @@
 
 ### 1.1 Purpose of this Manual
 
-This manual provides comprehensive guidance for judges using the tablet-based judging system at dance competitions. Whether you're a first-time judge or an experienced professional, this guide will help you understand all features and functions of the judging tablet system, ensuring accurate, fair, and efficient scoring.
+This manual provides comprehensive guidance for judges using the **scoring.dance** tablet-based judging system at dance competitions. Whether you're a first-time judge or an experienced professional, this guide will help you understand all features and functions of the judging tablet system, ensuring accurate, fair, and efficient scoring.
 
-The system is designed to streamline the judging process while maintaining the integrity and standards required by the World Swing Dance Council (WSDC) and other governing bodies.
+The **scoring.dance** platform is designed to streamline the judging process while maintaining the integrity and standards required by the World Swing Dance Council (WSDC) and other governing bodies.
 
-### 1.2 Overview of the Judging Tablet System
+> 💡 **Tip:** If you prefer visual learning, watch our video tutorial at [https://www.youtube.com/watch?v=_3484YFtm7A](https://www.youtube.com/watch?v=_3484YFtm7A) before reading this manual.
 
-The judging tablet system represents a modern, digital approach to dance competition scoring. Key features include:
+### 1.2 Overview of the scoring.dance Judging System
+
+The **scoring.dance** judging tablet system represents a modern, digital approach to dance competition scoring. Key features include:
 
 - **Real-time scoring**: Your scores are continuously synchronized with the central scoring system
-- **Multiple judging modes**: Choose the scoring method that works best for you
+- **Multiple judging modes**: Choose between Scale, RAW, and TheOpen scoring methods
 - **Automatic calculations**: The system handles all mathematical computations
 - **Visual aids**: Color coding, markers, and notes help you track competitors
 - **WSDC compliance**: Built-in adherence to WSDC registry event rules
@@ -92,7 +106,7 @@ The system supports both preliminary rounds (using the callback system) and fina
 
 ### 1.3 WSDC Compliance and Standards
 
-For WSDC Registry Events, this judging system is designed to comply with all current WSDC Registry Event Rules, including:
+For WSDC Registry Events, the **scoring.dance** judging system is designed to comply with all current WSDC Registry Event Rules, including:
 
 - **Callback System**: Standardized point values (Yes = 10, Alt1 = 4.5, Alt2 = 4.3, Alt3 = 4.2, No = 0)
 - **Relative Placement**: Standard placement scoring for finals
@@ -129,7 +143,10 @@ The system maintains audit trails and provides the reporting necessary for WSDC 
 
 ### 2.2 Initial Login
 
-When you first receive your tablet and open the judging application, you'll see a list of available competitions.
+When you first receive your tablet and open the **scoring.dance** judging application, you'll see a list of available competitions.
+
+![Competition Selection Screen](img01.png)
+*Figure 2.1: Competition selection screen showing available competitions*
 
 **Step-by-Step Login Process:**
 
@@ -143,11 +160,17 @@ When you first receive your tablet and open the judging application, you'll see 
    - Find and tap your name
    - **If replacing another judge**: Tap the name of the judge you're replacing (e.g., if Carl is unable to continue, you would tap "Carl")
 
+![Judge Selection Screen](img02.png)
+*Figure 2.2: Judge selection screen with list of assigned judges (showing Leaders "L" and Followers "F")*
+
 3. **Modify Name if Needed**
    - After selecting a name, you'll see a confirmation screen showing the selected judge name
    - If there's a spelling error or if you're replacing someone, you can modify the name here
    - Tap the name field to edit
    - Enter the correct name
+
+![Judge Confirmation Screen](img03.png)
+*Figure 2.3: Judge confirmation screen with START button*
 
 4. **Start the Round**
    - After confirming your name is correct, tap the **START** button
@@ -162,6 +185,9 @@ When you first receive your tablet and open the judging application, you'll see 
 ### 2.3 Understanding the Main Screen
 
 Once you've started a round, you'll see the main judging interface. Understanding this screen is essential for efficient judging.
+
+![Main Judging Screen](img04.png)
+*Figure 2.4: Main judging interface showing heats and competitor scores in preliminary round*
 
 **Header Section (Top of Screen):**
 
@@ -195,8 +221,7 @@ This is where you'll see the list of competitors with their:
 - **Color Coding**: 
   - Green = Yes/High scores
   - Yellow = Alternate/Medium scores
-  - Red = No/Low scores
-  - Pink/Salmon = Low scores in prelims
+  - Red/Pink = No/Low scores
 
 Each competitor row shows their current score as a horizontal bar graph, with numerical values displayed.
 
@@ -210,7 +235,6 @@ Four tabs for different viewing modes:
 
 **Top Right Icons:**
 
-- **Music Note Icon**: Audio controls (if applicable)
 - **Eye Icon**: Screen blanking feature for privacy
 - **Settings Icon (Gear)**: Access judging mode and display options
 - **Done Button**: Shows percentage complete and allows final submission
@@ -244,7 +268,7 @@ This is indicated by the badge next to competitor names. If you see "(L)" next t
 
 **Judge ID Reference:**
 Your unique Judge ID (e.g., "L3054") serves several purposes:
-- Internal tracking within the scoring system
+- Internal tracking within the **scoring.dance** system
 - Allows for score review and verification
 - Enables score replay if technical issues occur
 - Maintains audit trail for WSDC compliance
@@ -252,6 +276,9 @@ Your unique Judge ID (e.g., "L3054") serves several purposes:
 ### 3.2 Icons and Controls
 
 **Eye Icon (Screen Blanking):**
+
+![Blank Screen View](img05.png)
+*Figure 3.1: Screen blanking feature activated for privacy*
 
 Located in the top right corner, the eye icon provides privacy protection.
 
@@ -266,11 +293,17 @@ Located in the top right corner, the eye icon provides privacy protection.
 
 **Settings Icon (Gear):**
 
+![Settings Menu](img06.png)
+*Figure 3.2: Settings menu showing available judging modes and options*
+
 Opens a menu with various options:
-- Judging mode selection (Scale, RAW, TheOpen)
-- Display preferences (competitor names, marshalling status)
-- Refresh/Reload function
-- Additional customization options
+- **Style: Scale** - Default double-click mode (recommended)
+- **Style: Scale (2 songs)** - For spotlight finals with two songs
+- **Style: RAW (beta)** - Manual numeric entry mode
+- **Style: TheOpen (beta)** - Range-based scoring (70-100)
+- **Show Competitornames** - Toggle to display dancer names
+- **Show Marshalling** - Toggle to show check-in status (green/red backgrounds)
+- **Refresh/Reload** - Manual system refresh button
 
 **Done Button:**
 
@@ -281,26 +314,11 @@ The Done button is your final submission control:
 - Shows "OFFLINE" in red if network connection is lost
 - Becomes unclickable (red) when offline
 
-**Time Display:**
-
-Shows current time and day (e.g., "Sun 17:05"):
-- Helps you track round duration
-- Ensures you're aware of time constraints
-- Updates continuously
-
-**Additional Controls:**
-
-Depending on the judging mode and competition format, you may see:
-- Plus (+) and Minus (-) buttons for fine-tuning scores
-- Numbered buttons (0-9) for direct score entry
-- Color and icon selectors for marking competitors
-- Emoji buttons for adding notes
-
 ---
 
 ## 4. Judging Modes Explained
 
-The judging tablet system offers multiple scoring modes to accommodate different judging preferences and styles. All modes can be used in both preliminary rounds and finals - the system adapts the display to show either callbacks (Yes/No/Alt) or placements accordingly.
+The **scoring.dance** tablet system offers multiple scoring modes to accommodate different judging preferences and styles. All modes can be used in both preliminary rounds and finals - the system adapts the display to show either callbacks (Yes/No/Alt) or placements accordingly.
 
 ### 4.1 Scale Mode (Default/Recommended)
 
@@ -419,6 +437,9 @@ To change a score:
 ### 4.3 TheOpen Mode
 
 TheOpen Mode combines elements of both Scale and RAW modes, offering a range-based scoring system with fine-tuning controls.
+
+![TheOpen Mode Interface](img14.png)
+*Figure 4.1: TheOpen Mode showing 70-98 score range buttons and +/- fine-tuning controls*
 
 **How It Works:**
 
@@ -677,6 +698,9 @@ The four tabs at the bottom of the screen provide different ways to view and man
 
 **RANKED Tab**
 
+![Ranked View](img08.png)
+*Figure 5.1: RANKED tab showing competitors sorted by current scores (descending order)*
+
 **What It Shows:**
 - All competitors sorted by their current raw scores
 - Highest scores at top, lowest at bottom
@@ -711,6 +735,9 @@ Example scenario:
 ---
 
 **TODO Tab**
+
+![TODO View](img09.png)
+*Figure 5.2: TODO tab showing empty state when all competitors have been scored*
 
 **What It Shows:**
 - Only competitors you haven't scored yet
@@ -798,7 +825,7 @@ When the CONFLICTS tab shows entries:
 
 ## 6. Finals Rounds (Placements)
 
-Finals use a placement-based scoring system where judges rank competitors from 1st place through the final placement. The system uses Relative Placement scoring according to WSDC standards.
+Finals use a placement-based scoring system where judges rank competitors from 1st place through the final placement. The **scoring.dance** system uses Relative Placement scoring according to WSDC standards.
 
 ### 6.1 Understanding Finals Scoring
 
@@ -812,6 +839,9 @@ Unlike preliminaries where you give Yes/No/Alt callbacks, in finals you're creat
 4. **Second highest = 2nd place**
 5. **Third highest = 3rd place**
 6. And so on through all finalists
+
+![Finals Scoring Example](img13.png)
+*Figure 6.1: Finals view showing competitors with scores and placements*
 
 **Visual Display in Finals:**
 
@@ -915,6 +945,9 @@ Classic Jack & Jill contests have unique characteristics:
 
 **Understanding the Display:**
 
+![Finals Detailed View](img15.png)
+*Figure 6.2: Finals detailed view showing scores and placements*
+
 In finals view, each competitor row shows:
 
 **Left Side:**
@@ -962,7 +995,7 @@ Finals require odd numbers of judges (WSDC standard):
 
 - You see only YOUR placements on your tablet
 - Other judges' scores are not visible to you
-- The scoring system combines all judges' placements
+- The **scoring.dance** system combines all judges' placements
 - Final results are calculated by the system using Relative Placement
 
 **After Scoring:**
@@ -976,7 +1009,7 @@ Finals require odd numbers of judges (WSDC standard):
 
 ## 7. Additional Features and Tools
 
-Beyond basic scoring, the judging tablet offers several tools to enhance your judging experience and track important information.
+Beyond basic scoring, the **scoring.dance** judging tablet offers several tools to enhance your judging experience and track important information.
 
 ### 7.1 Competitor Information
 
@@ -1031,6 +1064,9 @@ When a competitor doesn't appear or withdraws:
 ### 7.2 Visual Markers and Notes
 
 The system provides extensive marking tools to help you track and identify competitors during judging.
+
+![Marker Selection](img07.png)
+*Figure 7.1: Visual markers and notes popup for competitor Paul Riding (#179)*
 
 **Purpose of Markers:**
 
@@ -1354,7 +1390,7 @@ Manual system refresh button.
 
 **Purpose:**
 
-Forces the tablet to sync with the central scoring server and download latest data.
+Forces the tablet to sync with the central **scoring.dance** server and download latest data.
 
 **When to Use:**
 
@@ -1415,6 +1451,9 @@ Percentage = (Number of Scored Competitors / Total Active Competitors) × 100%
 
 **Visual Changes:**
 
+![Scoring in Progress](img10.png)
+*Figure 9.1: Judging in progress showing partial completion*
+
 As you progress:
 - **0-99%**: DONE button shows percentage in gray
 - **100%**: DONE button fills with green color
@@ -1470,6 +1509,9 @@ The DONE button is your final submission control and digital signature.
 - Clickable and ready for submission
 - All competitors have been scored
 
+![Loading State](img11.png)
+*Figure 9.2: Processing submission (loading indicator)*
+
 **3. Offline (Red with "OFFLINE")**
 - Red background
 - Text says "OFFLINE"
@@ -1497,6 +1539,9 @@ When you reach 100% and the button is green:
 - System sends your complete scoring data to server
 - All raw scores, placements, and metadata transmitted
 - Timestamp recorded
+
+![Submission Complete](img12.png)
+*Figure 9.3: Successful submission confirmation (green checkmark)*
 
 **Step 5: Confirmation**
 - **Large green checkmark** (✓) appears
@@ -1777,7 +1822,7 @@ If a tablet is lost or damaged:
 
 **Understanding Connectivity:**
 
-The judging system requires continuous internet connection:
+The **scoring.dance** judging system requires continuous internet connection:
 - Scores synchronize in real-time
 - Updates are received from server
 - System coordination across all judges
@@ -2182,6 +2227,9 @@ If scores seem incorrect or anomalous:
 - OFFLINE in red = no network (wait for reconnection)
 - Missing dancers = check TODO tab
 
+**Watch the Video Tutorial:**
+🎥 [https://www.youtube.com/watch?v=_3484YFtm7A](https://www.youtube.com/watch?v=_3484YFtm7A)
+
 ---
 
 ### 12.2 WSDC Callback System Reference
@@ -2250,6 +2298,8 @@ If scores seem incorrect or anomalous:
 
 **Scratched**: Competitor who withdrew or didn't appear; indicated by strikethrough
 
+**scoring.dance**: The tablet-based judging platform and software system
+
 **Spotlight**: Finals format where couples dance individually
 
 **TheOpen Mode**: Judging mode using 70-100 range with fine-tuning controls
@@ -2260,7 +2310,61 @@ If scores seem incorrect or anomalous:
 
 ---
 
-### 12.4 Frequently Asked Questions
+### 12.4 Screenshot Gallery
+
+This section provides a visual reference of all key screens and features in the **scoring.dance** judging tablet system.
+
+![Competition Selection](img01.png)
+**Figure 12.1**: Competition selection screen showing available competitions
+
+![Judge Selection](img02.png)
+**Figure 12.2**: Judge selection screen with Leader (L) and Follower (F) indicators
+
+![Judge Confirmation](img03.png)
+**Figure 12.3**: Judge confirmation screen with START button
+
+![Main Judging Interface - Prelim](img04.png)
+**Figure 12.4**: Main judging interface in preliminary round with heat tabs
+
+![Screen Blanking](img05.png)
+**Figure 12.5**: Privacy screen blanking feature (eye icon activated)
+
+![Settings Menu](img06.png)
+**Figure 12.6**: Settings menu showing judging modes and options
+
+![Visual Markers](img07.png)
+**Figure 12.7**: Visual markers and notes popup for tracking dancers
+
+![Ranked View](img08.png)
+**Figure 12.8**: RANKED tab showing competitors sorted by score
+
+![TODO View](img09.png)
+**Figure 12.9**: TODO tab empty state (all dancers scored)
+
+![Heat View](img10.png)
+**Figure 12.10**: Individual heat view with partial completion
+
+![Processing](img11.png)
+**Figure 12.11**: Loading indicator during submission processing
+
+![Submission Complete](img12.png)
+**Figure 12.12**: Green checkmark confirming successful submission
+
+![Finals Overview](img13.png)
+**Figure 12.13**: Finals view showing competitors and placements
+
+![Finals TheOpen Mode](img14.png)
+**Figure 12.14**: Finals with TheOpen Mode (70-100 scale and +/- buttons)
+
+![Finals Detailed Scores](img15.png)
+**Figure 12.15**: Finals detailed view with scores and rankings
+
+![Finals Ranked Display](img16.png)
+**Figure 12.16**: Finals results display with visual score bars
+
+---
+
+### 12.5 Frequently Asked Questions
 
 **Q: What if I don't know the competitors - should I turn on "Show Competitor Names"?**
 
@@ -2300,7 +2404,7 @@ A: No. Each tablet is private. Other judges cannot see your scores, markers, or 
 
 **Q: What if I disagree with another judge's scores?**
 
-A: That's normal and expected. Each judge evaluates independently. The system combines all judges using Relative Placement to determine fair results.
+A: That's normal and expected. Each judge evaluates independently. The **scoring.dance** system combines all judges using Relative Placement to determine fair results.
 
 ---
 
@@ -2353,7 +2457,7 @@ A: No. Scratched dancers (strikethrough names) are automatically excluded. The s
 
 **Q: What's the Judge ID number for?**
 
-A: Internal system tracking, allows score review, and enables replay if needed. It's for audit trails and technical purposes.
+A: Internal system tracking, allows score review, and enables replay if needed. It's for audit trails and technical purposes in the **scoring.dance** system.
 
 ---
 
@@ -2395,13 +2499,19 @@ A: Ask Head Judge or officials. Some events offer brief practice/orientation. Fa
 
 **Q: What's the most important thing to remember?**
 
-A: **Judge fairly, independently, and to the best of your ability.** The system is a tool - your expertise and integrity are what truly matter.
+A: **Judge fairly, independently, and to the best of your ability.** The **scoring.dance** system is a tool - your expertise and integrity are what truly matter.
+
+---
+
+**Q: Where can I learn more about scoring.dance?**
+
+A: Watch the video tutorial at [https://www.youtube.com/watch?v=_3484YFtm7A](https://www.youtube.com/watch?v=_3484YFtm7A) and consult with event organizers or the technical support team.
 
 ---
 
 ## Conclusion
 
-This manual has covered comprehensive guidance for using the judging tablet system. Remember:
+This manual has covered comprehensive guidance for using the **scoring.dance** judging tablet system. Remember:
 
 - **Handle tablets with care** - protect these valuable tools
 - **Judge independently and fairly** - maintain integrity
@@ -2409,17 +2519,23 @@ This manual has covered comprehensive guidance for using the judging tablet syst
 - **Review before submitting** - the DONE button is final
 - **Ask questions when unsure** - Head Judge is there to help
 
-The tablet system is designed to support your expert judgment, not replace it. Your dancing knowledge, experience, and fair evaluation are what make competitions meaningful for competitors.
+The **scoring.dance** tablet system is designed to support your expert judgment, not replace it. Your dancing knowledge, experience, and fair evaluation are what make competitions meaningful for competitors.
 
 Thank you for serving as a judge and contributing to the dance competition community.
 
 **Questions or Feedback?**
 
-Contact the event organizers or technical support team for:
+Contact the event organizers or **scoring.dance** technical support team for:
 - Additional training
 - Technical assistance
 - System suggestions
 - Rule clarifications
+
+**Resources:**
+
+- 📹 **Video Tutorial**: [https://www.youtube.com/watch?v=_3484YFtm7A](https://www.youtube.com/watch?v=_3484YFtm7A)
+- 🌐 **Platform**: scoring.dance
+- 📖 **WSDC Rules**: Available in your event documentation
 
 **Good luck and happy judging!**
 
@@ -2427,4 +2543,5 @@ Contact the event organizers or technical support team for:
 
 *This manual is a living document and may be updated as the system evolves and new features are added.*
 
-*Version 1.0 - December 2025*
+*Version 1.0 - December 2025*  
+*Powered by scoring.dance*
